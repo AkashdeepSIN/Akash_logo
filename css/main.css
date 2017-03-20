@@ -1,0 +1,73 @@
+section{
+	text-align: center;
+}
+svg{
+	width: 200px;
+}
+
+text{
+color: transparent;
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
+font-size:305.4832px;
+  animation: new 1s forwards;
+}
+@keyframes new{
+	100%{
+		color: #000
+	}
+}
+
+#C1{
+fill: transparent;
+animation: two 1s 1s forwards;
+}
+@keyframes two{
+	100%{
+		fill: #000
+	}
+}
+
+#C2{
+fill: transparent;
+animation: twot 1s 2s forwards;
+}
+@keyframes twot{
+	100%{
+		fill: #000
+	}
+}
+
+#C3{
+fill: transparent;
+animation: twot 1s 3s forwards;
+}
+@keyframes twot{
+	100%{
+		fill: #000
+	}
+}
+
+.st1{
+	fill: none;
+	stroke: #000;
+	stroke-width: 4px;
+}
+.st1{
+stroke-dasharray: 988;
+stroke-dashoffset: 988;
+animation: one 3s 5s forwards;
+}
+@keyframes one{
+	100%{
+		stroke-dashoffset: 0;
+	}
+}
+.st0{
+	fill: transparent;
+	animation: tri 3s 6s forwards;
+}
+@keyframes tri{
+	100%{
+		fill: #aaa;
+	}
+}
